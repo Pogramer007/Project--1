@@ -1,0 +1,156 @@
+
+.ss{background-color:lime;}
+
+nav ul{
+    display: flex;
+}
+.last li:last-child{
+    background-color: aqua;
+}
+.last2 li:nth-child(2n){
+    background-color: rgb(251, 255, 4);
+}
+.last3 li:nth-child(3n+1){
+    background-color: darkmagenta;
+}
+nav li{list-style: none;
+margin-right: 10px;
+padding: 10x;
+}
+nav li a{text-decoration: none;
+color: red;
+}
+nav li:hover{background-color: red;
+}
+nav li .xx{display: none;
+    position: absolute;
+    background-color: skyblue;
+    padding-left: 15px;
+}
+nav li:hover > .xx{
+    display: block;
+}
+#c{background-color: red;
+}
+sub{color: red;
+}
+sup{color: red;
+}
+small{color: red;
+}
+address{color: red;
+}
+#aa{color: red;
+}
+em{color: red ;
+}
+#mm{color: red;
+}
+table{border-collapse: collapse;}
+td,th{border: solid purple;
+    padding: 10px 20px;
+}
+abbr{color: red;
+}
+#mn{background-color: red;}
+
+.hover2:hover{
+    background-color: blue;
+}
+.hover3:hover{
+    font-size: larger;
+}
+.hover4:hover{
+    text-align: center;
+}
+.hover5:hover{
+    height: 200px;
+}
+.hover6:hover{
+    position: absolute;
+}
+.hover7:hover{
+position: fixed;
+}
+.hover8:hover{
+display: none;
+}
+.hover9:hover{
+    background-color: blue;
+    height: 200px;
+    text-align: center;
+    font-size: larger;
+}
+.hover10:hover{
+ border: 10px solid blueviolet;
+ text-align: center;
+}
+.focus-mother{
+    display: grid;
+    grid-template-columns: 100px;
+}
+.focus1:focus{
+    color:blue;
+}
+.focus2:focus{
+    background-color:hotpink;
+}
+.focus3:focus{
+    border: 3px solid darkred;
+}
+.focus4:focus{
+    font-size: large;
+}
+.focus5:focus{
+padding-left: 30px;
+}
+.position-mother{
+    border: 2px solid orangered;
+    position: relative;
+}
+.box{  
+    border: 2px dashed rebeccapurple;
+}
+.lol{
+    position: relative;
+    left: 200px;
+     /* top: -100px;  */
+    right: 500px;
+}
+.github{
+    /* position: absolute; */
+    /* top: 10px;  */
+    /* position: sticky; */
+    /* top: 0px; */
+    /* position: fixed; */
+    /* top: 200px; */
+    /* left: 50px; */
+    /* z-index: 5; */
+}
+.stiky{
+    border: 2px solid yellow;
+    width: 500px;
+    height: 20px;
+}
+.sudo1{
+    display: flex;
+    justify-content: space-around;
+}
+.sudo1 h4::first-letter{
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+.sudo2 p::first-line{
+    color: rgb(76, 0, 216);
+    font-size: 2em;
+    background-color: aqua;
+}
+.sudo2 p::first-letter{
+    font-size: 5em;
+}
+.sudo3 p::after{
+   content:' yusuf'; 
+   font-size: 1em;
+   color: rgb(3, 131, 243);
+}
