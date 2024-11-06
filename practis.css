@@ -192,6 +192,7 @@ font-size: 2em;
 td{
     border: 2px solid blueviolet;
     text-align: center;
-    height: 10px;
-    /* width: 500px; */
+    height: 30px;
+    width: 100px; 
 }
+/* All ankor */
