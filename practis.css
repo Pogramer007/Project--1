@@ -195,4 +195,15 @@ td{
     height: 30px;
     width: 100px; 
 }
-/* All ankor */
+/* Grid */
+.grid-mother{
+    display: grid;
+    grid-template-columns: auto 200px auto 200px;
+    /* justify-content: space-between; */
+    /* width: 400px; */
+    text-align: center;
+    height: 200px;
+}
+.grid{
+    border: 2px solid rgb(6, 165, 117);
+}
