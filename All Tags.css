@@ -167,3 +167,42 @@ padding-left: 30px;
     .temple{
         border: 2px solid skyblue;
     }
+
+/* [addong */
+.h3{
+    background-color: cyan;
+}
+    
+.padding{
+    padding: 200px;
+}
+.padding-left{
+    padding-left: 200px;
+}
+.padding-top{
+    padding-top: 200px;
+}
+.padding-rith{
+    padding-right: 200px;
+}
+.padding-bottom{
+    padding-bottom: 200px;
+}
+.padding-inline{
+    padding-inline: 200px;
+}
+.padding-inline-start{
+    padding-inline-start: 200px;
+}
+.padding-inline-end{
+    padding-inline-end: 200px;
+}
+.padding-block{
+    padding-block: 200px;
+}
+.padding-block-start{
+    padding-block-start: 200px;
+}
+.padding-block-end{
+    padding-block-end: 200px;
+}

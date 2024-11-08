@@ -14,7 +14,7 @@ h1{
     /* All flex direction */
 
 
-    
+
 .flexdirection{ 
     border: 3px dotted rgb(6, 226, 255);
     }
@@ -254,4 +254,64 @@ td{
 }
 .brother{
     border: 3px solid rgb(196, 40, 66);
+}
+
+
+/* All Display*/
+
+
+
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+}
+.inline-flex{
+    display: inline-flex;
+}
+.contents{
+    display: contents;
+}
+
+/* all pading */
+
+.padding{
+    padding: 200px;
+}
+.padding-left{
+    padding-left: 200px;
+}
+.padding-top{
+    padding-top: 200px;
+}
+.padding-rith{
+    padding-right: 200px;
+}
+.padding-bottom{
+    padding-bottom: 200px;
+}
+.padding-inline{
+    padding-inline: 200px;
+}
+.padding-inline-start{
+    padding-inline-start: 200px;
+}
+.padding-inline-end{
+    padding-inline-end: 200px;
+}
+.padding-block{
+    padding-block: 200px;
+}
+.padding-block-start{
+    padding-block-start: 200px;
+}
+.padding-block-end{
+    padding-block-end: 200px;
 }
