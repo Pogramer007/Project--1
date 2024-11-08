@@ -12,6 +12,9 @@ h1{
 
     
     /* All flex direction */
+
+
+    
 .flexdirection{ 
     border: 3px dotted rgb(6, 226, 255);
     }
@@ -35,6 +38,9 @@ h1{
     }
 
     /* All justify-content */
+
+
+
     .box{
         border: 2px dotted rgb(13, 231, 49); 
         height: 50px;
@@ -95,6 +101,9 @@ h1{
     }
 
     /* All aline-items */
+
+
+
     .aline{
         border: 2px dotted rgb(19, 5, 107);
         height: 20px;
@@ -126,6 +135,8 @@ h1{
 
 
     /* All psudo */
+
+
    .text:hover{
 background-color: brown;
 flex-direction: column;
@@ -157,7 +168,13 @@ font-size: 2em;
 .qson input:focus{
     border: 100px solid rgb(240, 36, 206);
 }
+
+
+
 /* All marzin */
+
+
+
 .lorv{
     margin: 200px 200px 200px 200px;
 }
@@ -185,7 +202,11 @@ font-size: 2em;
 .loro{
     margin-block-start: 200px;
 }
+
+
 /* All Table th td tr  */
+
+
 .farst-table{
     border-collapse: collapse;
 }
@@ -195,15 +216,42 @@ td{
     height: 30px;
     width: 100px; 
 }
+
+
+
 /* Grid */
+
+
 .grid-mother{
     display: grid;
     grid-template-columns: auto 200px auto 200px;
-    /* justify-content: space-between; */
+    justify-content: center;
     /* width: 400px; */
     text-align: center;
     height: 200px;
 }
 .grid{
     border: 2px solid rgb(6, 165, 117);
+}
+.grid-father{
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr) 5fr auto;
+    height: 300px;
+}
+.father{
+    border: 2px solid blueviolet;
+}
+.grid-brother{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 200px 200px 200px 200px  ;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+
+}
+.brother{
+    border: 3px solid rgb(196, 40, 66);
 }
