@@ -315,3 +315,35 @@ td{
 .padding-block-end{
     padding-block-end: 200px;
 }
+
+/* All nav */
+
+nav > ul{
+    display: flex;
+}
+nav ul li:hover{
+    background-color: rgb(190, 185, 185);
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li .underul{
+    display: none;
+    background-color: aqua;
+    position: absolute;
+    padding-left: 20px;
+}
+nav li:hover > .underul{
+    display: block;
+
+}
+
+
+/* ALL position */
+.position{
+    position: absolute;
+}
+.psition-fixed{
+    position: fixed;
+}
