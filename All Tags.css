@@ -2,7 +2,7 @@
 h1{background-color:lime;
 text-align: center;}
 h3{
-    background-color: aqua;
+    background-color: rgb(236, 31, 255);
     text-align: center;
 }
 
@@ -141,15 +141,15 @@ padding-left: 30px;
     display: flex;
     justify-content: space-around;
 }
-.sudo1 h4::first-letter{
+.sudo1 p::first-letter{
     font-size: 5em;
     display: flex;
     justify-content: center;
 }
 .sudo2 p::first-line{
-    color: rgb(76, 0, 216);
+    color: rgb(12, 2, 102);
     font-size: 2em;
-    background-color: aqua;
+    background-color: rgb(187, 147, 147);
 }
 .sudo2 p::first-letter{
     font-size: 5em;
@@ -157,7 +157,7 @@ padding-left: 30px;
 .sudo3 p::after{
    content:' yusuf'; 
    font-size: 1em;
-   color: rgb(3, 131, 243);
+   color: rgb(255, 141, 11);
 }
 .sudo4::selection{
 background-color: yellow;
@@ -336,7 +336,6 @@ background-color: yellow;
     display: grid;
     grid-template-columns: auto 200px auto 200px;
     justify-content: center;
-    /* width: 400px; */
     text-align: center;
     height: 200px;
 }
@@ -345,7 +344,6 @@ background-color: yellow;
 }
 .grid-father{
     display: grid;
-    /* justify-content: center; */
     text-align: center;
     grid-template-columns: repeat(7, 1fr) 5fr auto;
     height: 300px;
@@ -365,3 +363,30 @@ background-color: yellow;
 .brother{
     border: 3px solid rgb(196, 40, 66);
 }
+.calender{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid;
+    font-size: 1.5em;
+    column-gap: 5px;
+    row-gap: 15px;
+    width: 600px;
+}
+.c-elimentP, .c-day{
+    background-color: rgb(56, 196, 206);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+}
+.c-day{
+    background-color: rgb(15, 37, 233);
+}
+.c-hade{
+    font-size: 2em;
+    color: rgb(212, 42, 255);
+}
+
