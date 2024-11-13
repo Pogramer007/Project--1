@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-layout</title>
+    <style>
+h1{background-color:rgb(255, 240, 31);
+text-align: center;}
+h3{
+    background-color: rgb(255, 28, 28);
+    text-align: center;
+}
+
+        .grid-mother{
+    display: grid;
+    grid-template-columns: auto 200px auto 200px;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+.grid{
+    border: 2px solid rgb(6, 165, 117);
+}
+.grid-father{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr) 5fr auto;
+    height: 300px;
+}
+.father{
+    border: 2px solid blueviolet;
+}
+.grid-brother{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 200px 200px 200px 200px  ;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+
+}
+.brother{
+    border: 3px solid rgb(196, 40, 66);
+}
+.calender{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
+    border: 2px solid;
+    font-size: 1.5em;
+    column-gap: 5px;
+    row-gap: 15px;
+    width: 600px;
+}
+.c-elimentP, .c-day{
+    background-color: rgb(56, 196, 206);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+}
+.c-day{
+    background-color: rgb(15, 37, 233);
+}
+.c-hade{
+    font-size: 2em;
+    color: rgb(212, 42, 255);
+}
+
+.gird-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 8px;
+width: 500px;
+grid-template-rows: repeat(3, 100px) 20px;
+}
+.fl{
+    background-color: gray;
+    border-radius: 5px;
+}
+#colas-1{
+    grid-row: span 5;
+}
+#colas-6, #colas-7, #colas-9, #colas-10 {
+background-color: brown;
+}
+#colas-11, #colas-12 {
+    grid-column: span 3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="Grid-layout">
+        <h1>Grid layout</h1>
+        <h3>Grid-1</h3>
+        <div class="grid-mother">
+            <div class="grid">box1</div>
+        <div class="grid">box2</div>
+        <div class="grid">box3</div>
+        <div class="grid">box4</div>
+        <div class="grid">box5</div>
+        <div class="grid">box6</div>
+        <div class="grid">box7</div>
+        <div class="grid">box8</div>
+        <div class="grid">box9</div>
+        <div class="grid">box10</div>
+        <div class="grid">box11</div>
+        <div class="grid">box12</div>
+        <div class="grid">box13</div>
+        <div class="grid">box14</div>
+        <div class="grid">box15</div>
+        <div class="grid">box16</div>
+        <div class="grid">box17</div>
+        <div class="grid">box18</div>
+        <div class="grid">box19</div>
+        <div class="grid">box20</div>
+        </div>
+        <h3>Grid-2</h3>
+        <div class="grid-father">
+            <div class="father">box=-1</div>
+            <div class="father">box=-2</div>
+            <div class="father">box=-3</div>
+            <div class="father">box=-4</div>
+            <div class="father">box=-5</div>
+            <div class="father">box=-6</div>
+            <div class="father">box=-7</div>
+            <div class="father">box=-8</div>
+            <div class="father">box=-9</div>
+            <div class="father">box=-10</div>
+            <div class="father">box=-11</div>
+            <div class="father">box=-12</div>
+            <div class="father">box=-13</div>
+            <div class="father">box=-14</div>
+            <div class="father">box=-15</div>
+            <div class="father">box=-16</div>
+            <div class="father">box=-17</div>
+            <div class="father">box=-18</div>
+            <div class="father">box=-19</div>
+            <div class="father">box=-20</div>
+        </div>
+        <h3>Grid-3</h3>
+        <div class="grid-brother">
+            <div class="brother">box-1</div>
+            <div class="brother">box-2</div>
+            <div class="brother">box-3</div>
+            <div class="brother">box-4</div>
+            <div class="brother">box-5</div>
+            <div class="brother">box-6</div>
+            <div class="brother">box-7</div>
+            <div class="brother">box-8</div>
+            <div class="brother">box-9</div>
+            <div class="brother">box-10</div>
+            <div class="brother">box-11</div>
+            <div class="brother">box-12</div>
+            <div class="brother">box-13</div>
+            <div class="brother">box-14</div>
+            <div class="brother">box-15</div>
+            <div class="brother">box-16</div>
+            <div class="brother">box-17</div>
+            <div class="brother">box-18</div>
+            <div class="brother">box-19</div>
+            <div class="brother">box-20</div>
+        </div>
+        <h3>Grid-4</h3>
+        <p class="c-hade"><b>Calender</b></p>
+        <div class="calender">
+        <div class="c-day">su</div>
+        <div class="c-day">mo</div>
+        <div class="c-day">tu</div>
+        <div class="c-day">we</div>
+        <div class="c-day">th</div>
+        <div class="c-day">fr</div>
+        <div class="c-day">sa</div>
+        
+        <div class="c-elimentP">27</div>
+        <div class="c-elimentP">28</div>   
+        <div class="c-elimentP">29</div>
+            <div class="c-elimentP">30</div>
+            <div class="c-elimentP">1</div>
+            <div class="c-elimentP">2</div>
+            <div class="c-elimentP">3</div>
+            <div class="c-elimentP">1</div>
+            <div class="c-elimentP">2</div>
+            <div class="c-elimentP">3</div>
+            <div class="c-elimentP">4</div>
+            <div class="c-elimentP">5</div>
+            <div class="c-elimentP">6</div>
+            <div class="c-elimentP">7</div>
+            <div class="c-elimentP">8</div>
+            <div class="c-elimentP">9</div>
+            <div class="c-elimentP">10</div>
+            <div class="c-elimentP">11</div>
+            <div class="c-elimentP">12</div>
+            <div class="c-elimentP">13</div>
+            <div class="c-elimentP">14</div>
+            <div class="c-elimentP">15</div>
+            <div class="c-elimentP">16</div>
+            <div class="c-elimentP">17</div>
+            <div class="c-elimentP">18</div>
+            <div class="c-elimentP">19</div>
+            <div class="c-elimentP">20</div>
+            <div class="c-elimentP">21</div>
+            <div class="c-elimentP">22</div>
+            <div class="c-elimentP">23</div>
+            <div class="c-elimentP">24</div>
+            <div class="c-elimentP">25</div>
+            <div class="c-elimentP">26</div>
+            <div class="c-elimentP">27</div>
+            <div class="c-elimentP">28</div>
+        </div>
+        <h3>grid-5</h3>
+        <div class="gird-container">
+            <div class="fl" id="colas-1">box-1_</div>
+            <div class="fl" id="colas-2">box-2_</div>
+            <div class="fl" id="colas-3">box-3_</div>
+            <div class="fl" id="colas-4">box-4_</div>
+            <div class="fl" id="colas-5">box-5_</div>
+            <div class="fl" id="colas-6">box-6_</div>
+            <div class="fl" id="colas-7">box-7_</div>
+            <div class="fl" id="colas-8">box-8_</div>
+            <div class="fl" id="colas-9">box-9_</div>
+            <div class="fl" id="colas-10">box-10_</div>
+            <div class="fl" id="colas-11">box-11_</div>
+            <div class="fl" id="colas-12">box-12_</div>
+        </div>
+    </div>
+    
+</body>
+</html>
