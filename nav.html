@@ -32,6 +32,28 @@ nav li .xx{display: none;
 nav li:hover > .xx{
     display: block;
 }
+
+nav > ul{
+    display: flex;
+}
+nav ul li:hover{
+    background-color: rgb(190, 185, 185);
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li .underul{
+    display: none;
+    background-color: aqua;
+    position: absolute;
+    padding-left: 20px;
+}
+nav li:hover > .underul{
+    display: block;
+
+}
+
     </style>
 </head>
 <body>
@@ -101,5 +123,60 @@ nav li:hover > .xx{
            </li>
        </ul>
     </nav>
+
+    <h1>nav-4</h1>
+    <nav>
+        <ul>
+            <li><p>misedk</p></li>
+            <li><p>kisero</p></li>
+            <li><p>tumiha</p><li>
+            <li><p>kisero</p></li>
+            <li><p>tumiha</p></li>
+            <li>
+                <p>hoiahuku</p>
+                <ul class="underul">
+                    <li>
+                        <p>amarna</p>
+                    </li>
+                    <li>
+                        <p>amarna</p>
+                        <ul class="underul">
+                            <li><p>misedk</p></li>
+            <li><p>kisero</p></li>
+            <li><p>tumiha</p><li>
+            <li><p>kisero</p></li>
+            <li><p>tumiha</p>
+            <ul class="underul">
+                <li><p>kisero</p></li>
+            <li><p>tumiha</p><li>
+            <li><p>kisero</p></li>
+            <li><p>tumiha</p>
+            <ul class="underul">
+                <li><p>kisero</p></li>
+                <li><p>tumiha</p><li>
+                <li><p>kisero</p></li>
+                <li><p>tumiha</p>
+            </ul></li>
+            </ul>
+            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>tumike</p>
+                    </li>
+                    <li>
+                        <p>raj</p>
+                    </li>
+                </ul>
+            </li>
+            </li>
+            <li>
+                <p>hoia</p>
+            </li>
+            <li>
+                <p>ojahoi</p>
+            </li>
+        </ul>
+     </nav>    
 </body>
 </html>
